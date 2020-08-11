@@ -1,0 +1,40 @@
+.tabContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  
+  }
+  .tabContainer .buttonContainer{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .tabContainer .buttonContainer .btn_items{
+    width: 14%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 15px;
+  }
+  
+  .tabContainer .buttonContainer .btn_items:hover{
+    background: yellow;
+  }
+  .tabContainer .buttonContainer .btn_items.active{
+    background: red;
+  }
+  
+  .tab_Content{
+  
+    height: 100%;
+  }
+  .tab_Content li .item-Content{
+     display: flex;
+     align-items: center;
+     padding: 15px 10px;
+     
+  }
+
+  
